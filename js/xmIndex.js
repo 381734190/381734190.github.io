@@ -41,7 +41,7 @@ window.onload = function () {
     function changeVideo() {
         // bgvideo.src = "video/bg-100.mp4";
         // bgvideo.loop = true;
-        $('.bg-content').css({'margin-top':0,'opacity':1});
+        $('.bg-content').css({'margin-top':0,'opacity':1,'z-index':1 });
         var bg100 = document.getElementById("bg-100");
         bg100.play();
         $('#bg-video').css({'display': 'none'});
