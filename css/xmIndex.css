@@ -1,0 +1,133 @@
+body{
+    background: #d8dadc;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.bg-video{
+    z-index: -999;
+    overflow: hidden;
+}
+.bg-video video{
+    margin-top: -1px;
+}
+.bg-content{
+    position: absolute;
+    z-index: 555;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin-top: 100px;
+    opacity: 0;
+    transition: all 2s linear;
+}
+.bg-content .bg-logo{
+    margin-top: 160px;
+    margin-bottom: 10px;
+    /*width: 70%;*/
+}
+.bg-content .bg-btn{
+    margin-top: 30px;
+}
+.bg-content .bg-btn a{
+    margin: 10px;
+}
+.navbar-default{
+    background-color: transparent;
+    border-color:transparent;
+}
+.navbar-nav > li > a{
+    font-size: 16px;
+    line-height: 30px;
+    transition: all .3s ease;
+    padding:  0 5px 2px 5px;
+    margin: 15px 15px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(1,1,1,.5);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+}
+
+.navbar-nav a{
+    display: block;
+    padding:0 20px;
+    color:#fff;
+    position:relative;
+}
+.navbar-nav a:before,
+.navbar-nav a:after{
+    content:"";
+    height: 2px;
+    background:none;
+    position:absolute;
+    top:33px;
+    width:0;
+    transition:all .5s;
+}
+.navbar-nav a:before{
+    left:50%;
+}
+.navbar-nav a:after{
+    right:50%;
+}
+.navbar-nav a:hover:before,
+.navbar-nav a:hover:after{
+    background-color:#fff;
+    width:50%;
+}
+#bg-100{
+    display: none;
+}
+
+/*model*/
+.modal-dialog {
+    margin: 150px auto;
+}
+.modal-header {
+    background: #1ab192;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .bg-content{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .bg-content .bg-logo{
+        width: 70%;
+        margin-top: 35%;
+    }
+    .bg-content .wz-logo{
+        width: 70%;
+    }
+    body{
+        background: url('../img/bgPhone.jpg');
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #fff;
+    }
+    .navbar-collapse{
+        border-top: 0 solid transparent;
+        box-shadow: inset 0 0 0 rgba(255, 255, 255, .1);
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        background: #fff;
+        width: 110px;
+        text-align: center;
+        border-radius: 5px;
+        float: right;
+        margin-right: 0px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #555;
+        text-shadow: 0 0 0 rgba(1,1,1,.5);
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,80 @@
+.cz-img{
+    width: 22px;
+    float: left;
+    margin-right: 5px;
+}
+.cz-img >img{
+    width:100%;
+}
+.pull-right>i{
+    font-size: 9px;
+}
+#Clock{
+    padding-left: 20px;
+    line-height: 50px;
+}
+.tq{
+   overflow: hidden;
+}
+.classPic{
+    width:50%;
+}
+.classTabPic{
+    /* height: 40%; */
+}
+.classTeaPic{
+    width: 12em;
+    height: 12em;
+}
+
+.section-ul li{
+    background: #eee;
+    border-radius: 5px;
+}
+.section-ul li a{
+    display: inline-block;
+    color: #aaa;
+    padding:10px 20px;
+    text-decoration: none;
+
+}
+
+.section-ul > .active{
+    background: #65CEA7;
+}
+.section-ul > .active a{
+    color: #fff;
+}
+
+.banner-td{
+    max-width: 200px;
+}
+.checkbox-inline{
+    margin-left: 10px;
+}
+.bm-bj{
+    line-height: 30px;
+}
+.tea-a{
+    color: #fff;
+
+}
+.tea-a:hover{
+    color: #fc8675;
+    text-decoration: none;
+}
+.role-table{
+    margin-top: 30px;
+}
+.role-table .row{
+    margin-bottom: 10px;
+}
+.role-add{
+    line-height: 32px;
+}
+.adv-btn{
+    margin-top: 15px;
+}
+.logo{
+    text-align: center;
+}

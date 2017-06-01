@@ -1,0 +1,124 @@
+.styleContent{
+    margin-top: 20px;
+}
+.styleContent .breadcrumb{
+    background-color:transparent; 
+     border-radius: 0; 
+     margin-bottom: 10px;
+}
+.styleContent .breadcrumb li{
+    color: #777;
+}
+.styleContent .breadcrumb li a{
+    color: #555;
+}
+.styleContent .style-detail .style-left,.styleContent .style-detail .style-right{
+    border: 1px solid #ddd;
+    background: #fff;
+    /*height: 500px;*/
+}
+.styleContent .style-detail .style-left{
+    padding: 30px 8%;
+}
+.styleContent .style-detail .style-left h3{
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+.styleContent .style-detail .style-left span{
+    color: #999;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.styleContent .style-detail .style-left  .bdsharebuttonbox{
+    display: inline-flex;
+    margin-top: -1px;
+}
+
+.styleContent .style-detail .style-left .style-table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.styleContent .style-detail .style-left .style-text p{
+    font-size: 14px;
+    color: #555;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.styleContent .style-detail .style-left .style-text .style-ln{
+    text-align: left;
+}
+.styleContent .style-detail .style-left .style-text img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.styleContent .style-detail .style-left .style-to{
+    color: #f97d4c;
+}
+
+/*右边*/
+
+.styleContent .style-detail .style-right .style-sj{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.styleContent .style-detail .style-right .style-sj h4{
+    font-size: 17px;
+    font-weight: bold;
+    color: #555;
+}
+.styleContent .style-detail .style-right .style-sj img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.styleContent .style-detail .style-right .style-sj p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #777;
+}
+.styleContent .style-detail .style-right .style-zx{
+    padding: 10px 20px;
+}
+.styleContent .style-detail .style-right .style-zx h4{
+    font-size: 17px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.styleContent .style-detail .style-right .style-zx p{
+    text-align: center;
+    color: #777;
+}
+.style-fixed{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 280px;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .styleContent .style-detail .style-right .style-sj{
+        text-align: center;
+    }
+    .styleContent .style-detail .style-right .style-sj img{
+        margin: 0 auto;
+    }
+    .styleContent .style-detail .style-right{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="无底蕴，不装修。国风装，舍弃谁？————潢川玄墨装饰设计有限公司">
+	<meta name="keyword" content="玄墨装饰,潢川装修,玄墨,潢川玄墨装饰设计,潢川玄墨,xmzs,潢川装饰,玄墨装饰设计">
+    <meta name="author" content="Nomo Hsiang">
+    <link rel="icon" href="img/ico.png">
+    <title>玄墨装饰设计有限公司</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/xmIndex.css">
+
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--side-->
+    <a class="side"></a>
+    <!--header-->
+    <div class="container-fluid">
+         <!--nav-->
+         <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand"><img src="img/logo-bai.png" class="img-responsive" alt="玄墨装饰"></a>
+                        <a data-toggle="collapse" href="#xmCol" class="navbar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </div>
+                    <div id="xmCol" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="main.html"  class="">首 页</a>
+                            </li>
+                            <li>
+                                <a href="style.html"  class="">风格案例</a>
+                            </li>
+                            <li>
+                                <a href="project.html"  class="">钻石工程</a>
+                            </li>
+                            <li>
+                                <a href="about.html"  class="">关于我们</a>
+                            </li>
+                            <li>
+                                <a data-toggle="modal" href="#modal-yyzx" class="">预约装修</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         <!--nav end-->
+    </div>
+
+   
+    
+    <div class="bg-video hidden-xs">
+        <video id="bg-video" class="" autoplay>
+            <source  src="http://cdn.xuanmozs.com/xm-video2.mp4" type="video/mp4">
+        </video>
+        <video id="bg-100" class="" loop>
+            <source  src="http://cdn.xuanmozs.com/bg-100.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="bg-content">
+        <img class="bg-logo center-block img-responsive" src="http://cdn.xuanmozs.com/img/bg-logo.png"  alt="">
+        <img class="wz-logo center-block img-responsive" src="http://cdn.xuanmozs.com/img/wz-logo.png" alt="">
+        <div class="bg-btn text-center">
+            <a href="main.html" class="btn btn-default">进入官网</a>
+            <a data-toggle="modal" href="#modal-yyzx" class="btn btn-primary">预约装修</a>
+        </div>
+    </div>
+
+    
+
+
+
+    <!--model-->
+    <div class="modal fade" id="modal-yyzx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"><i class="fa fa-home"></i> 预约装修</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" method="post" id="yyzx-form" action="<?php $_PHP_SELF ?>">
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <input type="text" class="form-control" id="yyzxName" name="yyzxName" placeholder="请输入姓名...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <input type="text" class="form-control" name="yyzxPhone" id="yyzxPhone" placeholder="请输入手机...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <input type="text" class="form-control" name="yyzxCommunity" id="yyzxCommunity" placeholder="小区名称...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <input type="text" class="form-control" name="yyzxArea" id="yyzxArea" placeholder="室内面积...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <textarea name="dzMessage" id="yyzxMessage" class="form-control" cols="30" rows="3" placeholder="喜爱风格及其他留言..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <button type="submit" class="btn btn-info">提交</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JS-->
+    <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/xmIndex.js"></script>
+
+
+</body>
+</html>

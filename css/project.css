@@ -1,0 +1,149 @@
+.project .project-title{
+    padding-top: 85px;
+    padding-left: 90px;
+}
+.project .row{
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.project .project-title .project-line{
+    border-right: 2px solid #f97d4c;
+    height: 305px;
+    position: absolute;
+    top: 0;
+   left: 218px;
+   z-index: -2;
+}
+.project .project-title h3{
+    font-weight: bold;
+    color: #f97d4c;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.project .project-title i{
+    color: #fff;
+    font-size: 35px;
+}
+.project .project-title .project-icon{
+    width: 70px;
+    height: 70px;
+    background: #f97d4c;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    text-align: center;
+    display: inline-block;
+    line-height: 75px;
+}
+.project .project-content{
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.project .project-content .col-sm-8{
+    padding-left: 30px;
+    padding-right: 0;
+}
+.project .project-content h4{
+    margin-top: 50px;
+    font-size: 16px;
+    color: #444;
+}
+.project .project-content h3{
+    color: #f97d4c;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.project .project-content p{
+    color: #777;
+}
+/*向左*/
+.triangle_border_left{
+    width:0;
+    height:0;
+    border-width:30px 30px 30px 0;
+    border-style:solid;
+    border-color:transparent #ddd transparent transparent;/*透明 灰 透明 透明 */
+    position:absolute;
+    left: -29px;
+    top: 90px;
+}
+.triangle_border_left span{
+        display: block;
+    width: 0;
+    height: 0;
+    border-width: 28px 28px 28px 1px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    top: -28px;
+    left: 1px;
+}
+.project .project-title .line-first{
+    margin-top: 85px;
+    height: 220px;
+}
+.project .project-title .line-last{
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .project .project-title{
+        text-align: center;
+        padding-top: 0px; 
+        padding-left: 0px; 
+    }
+    .project .row {
+        margin-right: -10px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .project .project-content h4{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .project .project-content .col-sm-8 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project .project-content img{
+        margin: auto;
+    }
+    .project .project-title h3{
+        margin-right: 0px; 
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    .project .project-title {
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+    .project .project-content h4{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .project .project-content p {
+            color: #777;
+            margin-bottom: 20px;
+    }
+    .project .project-content h3 {
+        color: #f97d4c;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .project .project-content img{
+        margin-top: 65px;
+    }
+    .triangle_border_left{
+        top: 75px;
+    }
+}
